@@ -172,7 +172,7 @@ footer {
 }
 @media (max-width: 800px) {
   .hero { align-items: flex-start; }
-  .team-logo { width: 52px; padding: 6px; border-radius: 14px; }
+  .team-logo { width: 68px; padding: 7px; border-radius: 16px; }
   .top-grid, .content-grid { grid-template-columns: 1fr; }
   .card { padding: 22px; border-radius: 22px; }
   footer { flex-direction: column; }
