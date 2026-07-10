@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blue Jays Playoff Dashboard</title>
+  <meta name="description" content="Daily Toronto Blue Jays playoff odds, recent results, next game, and news." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Toronto Blue Jays</p>
+        <h1>Playoff Pulse</h1>
+        <p class="subtitle">Daily playoff probability, last five results, next game, and fresh Blue Jays headlines.</p>
+      </div>
+      <div class="badge" aria-label="Blue Jays mark">BJ</div>
+    </header>
+
+    <section class="grid top-grid" aria-live="polite">
+      <article class="card odds-card">
+        <div class="card-label">Playoff probability</div>
+        <div id="odds" class="odds">—</div>
+        <div id="projection" class="muted">Loading projection…</div>
+        <div id="odds-source" class="source"></div>
+      </article>
+
+      <article class="card next-card">
+        <div class="card-label">Next game</div>
+        <h2 id="next-matchup">Loading…</h2>
+        <p id="next-time" class="big-detail"></p>
+        <p id="next-venue" class="muted"></p>
+      </article>
+    </section>
+
+    <section class="grid content-grid">
+      <article class="card">
+        <div class="section-heading">
+          <h2>Last five games</h2>
+          <span id="record-pill" class="pill"></span>
+        </div>
+        <div id="games" class="games-list"></div>
+      </article>
+
+      <article class="card">
+        <div class="section-heading">
+          <h2>Latest news</h2>
+          <span class="pill">MLB.com</span>
+        </div>
+        <ul id="news" class="news-list"></ul>
+      </article>
+    </section>
+
+    <footer>
+      <span id="updated">Updated daily.</span>
+      <span>Sources: TeamRankings, MLB Stats API, MLB.com RSS.</span>
+    </footer>
+  </main>
+
+  <script>
+    const fmtDateTime = (iso) => {
+      if (!iso) return "TBD";
+      return new Intl.DateTimeFormat(undefined, {
+        weekday: "short", month: "short", day: "numeric",
+        hour: "numeric", minute: "2-digit", timeZoneName: "short"
+      }).format(new Date(iso));
+    };
+
+    const fmtDate = (iso) => {
+      if (!iso) return "";
+      return new Intl.DateTimeFormat(undefined, {
+        month: "short", day: "numeric", year: "numeric"
+      }).format(new Date(iso));
+    };
+
+    const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, ch => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
+    }[ch]));
+
+    function renderGames(games) {
+      const wins = games.filter(g => g.result === "W").length;
+      const losses = games.filter(g => g.result === "L").length;
+      document.getElementById("record-pill").textContent = games.length ? `${wins}-${losses} over last 5` : "No recent finals";
+      document.getElementById("games").innerHTML = games.map(g => `
+        <div class="game-row">
+          <span class="result ${g.result === "W" ? "win" : "loss"}">${escapeHtml(g.result || "—")}</span>
+          <div class="game-main">
+            <strong>${escapeHtml(g.summary)}</strong>
+            <span>${escapeHtml(fmtDate(g.game_date_utc || g.date))} · ${escapeHtml(g.venue || "")}</span>
+          </div>
+        </div>
+      `).join("");
+    }
+
+    function renderNews(items) {
+      document.getElementById("news").innerHTML = items.map(item => `
+        <li>
+          <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a>
+          <span>${escapeHtml(item.published || "")}</span>
+        </li>
+      `).join("");
+    }
+
+    async function boot() {
+      try {
+        const response = await fetch("data.json", { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+
+        const odds = data.playoff_odds || {};
+        document.getElementById("odds").textContent = odds.label || "Unavailable";
+        document.getElementById("projection").textContent = odds.final_record_projection
+          ? `Projected final record: ${odds.final_record_projection}`
+          : "Projection unavailable";
+        document.getElementById("odds-source").innerHTML = odds.source_url
+          ? `Source: <a href="${escapeHtml(odds.source_url)}" target="_blank" rel="noreferrer">${escapeHtml(odds.source || "source")}</a>`
+          : "";
+
+        const next = data.next_game;
+        if (next) {
+          document.getElementById("next-matchup").textContent = `${next.home_away === "home" ? "vs" : "@"} ${next.opponent}`;
+          document.getElementById("next-time").textContent = fmtDateTime(next.game_date_utc);
+          document.getElementById("next-venue").textContent = next.venue || "";
+        } else {
+          document.getElementById("next-matchup").textContent = "No upcoming game found";
+        }
+
+        renderGames(data.last_five_games || []);
+        renderNews((data.news || []).slice(0, 5));
+        document.getElementById("updated").textContent = `Updated ${fmtDateTime(data.generated_at_utc)}`;
+      } catch (err) {
+        document.body.classList.add("error");
+        document.querySelector("main").insertAdjacentHTML("afterbegin", `<div class="alert">Could not load dashboard data: ${escapeHtml(err.message)}</div>`);
+      }
+    }
+    boot();
+  </script>
+</body>
+</html>

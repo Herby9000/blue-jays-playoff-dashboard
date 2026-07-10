@@ -1,0 +1,139 @@
+{
+  "generated_at_utc": "2026-07-10T00:12:53Z",
+  "team": {
+    "id": 141,
+    "name": "Toronto Blue Jays"
+  },
+  "playoff_odds": {
+    "probability_pct": 32.7,
+    "label": "32.7%",
+    "source": "TeamRankings",
+    "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
+    "final_record_projection": "79.6 - 82.4",
+    "notes": []
+  },
+  "last_five_games": [
+    {
+      "game_pk": 823202,
+      "date": "2026-07-08",
+      "game_date_utc": "2026-07-08T19:45:00Z",
+      "opponent": "San Francisco Giants",
+      "opponent_abbrev": "SF",
+      "home_away": "away",
+      "venue": "Oracle Park",
+      "status": "Final",
+      "result": "W",
+      "blue_jays_score": 10,
+      "opponent_score": 0,
+      "summary": "W 10-0 @ San Francisco Giants"
+    },
+    {
+      "game_pk": 823203,
+      "date": "2026-07-07",
+      "game_date_utc": "2026-07-08T01:45:00Z",
+      "opponent": "San Francisco Giants",
+      "opponent_abbrev": "SF",
+      "home_away": "away",
+      "venue": "Oracle Park",
+      "status": "Final",
+      "result": "W",
+      "blue_jays_score": 9,
+      "opponent_score": 3,
+      "summary": "W 9-3 @ San Francisco Giants"
+    },
+    {
+      "game_pk": 823205,
+      "date": "2026-07-06",
+      "game_date_utc": "2026-07-07T01:45:00Z",
+      "opponent": "San Francisco Giants",
+      "opponent_abbrev": "SF",
+      "home_away": "away",
+      "venue": "Oracle Park",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 1,
+      "opponent_score": 10,
+      "summary": "L 1-10 @ San Francisco Giants"
+    },
+    {
+      "game_pk": 823117,
+      "date": "2026-07-05",
+      "game_date_utc": "2026-07-05T21:00:00Z",
+      "opponent": "Seattle Mariners",
+      "opponent_abbrev": "SEA",
+      "home_away": "away",
+      "venue": "T-Mobile Park",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 0,
+      "opponent_score": 4,
+      "summary": "L 0-4 @ Seattle Mariners"
+    },
+    {
+      "game_pk": 823118,
+      "date": "2026-07-04",
+      "game_date_utc": "2026-07-04T20:10:00Z",
+      "opponent": "Seattle Mariners",
+      "opponent_abbrev": "SEA",
+      "home_away": "away",
+      "venue": "T-Mobile Park",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 0,
+      "opponent_score": 11,
+      "summary": "L 0-11 @ Seattle Mariners"
+    }
+  ],
+  "next_game": {
+    "game_pk": 823278,
+    "date": "2026-07-10",
+    "game_date_utc": "2026-07-11T01:40:00Z",
+    "opponent": "San Diego Padres",
+    "opponent_abbrev": "SD",
+    "home_away": "away",
+    "venue": "Petco Park",
+    "status": "Scheduled",
+    "result": null,
+    "blue_jays_score": null,
+    "opponent_score": null,
+    "summary": "@ San Diego Padres"
+  },
+  "news": [
+    {
+      "title": "From 13th-round Draft pick to All-Star manager: Schneider reflects on journey",
+      "url": "https://www.mlb.com/bluejays/news/john-schneider-on-managing-all-star-game",
+      "published": "Thu, 09 Jul 2026 10:56:27 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Cease comes 3 outs from ending 36-year no-no drought, then asks: 'How many K's did I have?'",
+      "url": "https://www.mlb.com/bluejays/news/dylan-cease-takes-no-hitter-into-ninth-inning-vs-giants",
+      "published": "Wed, 08 Jul 2026 23:57:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Key takeaways: Blue Jays 10, Giants 0",
+      "url": "https://www.mlb.com/bluejays/news/dylan-cease-vladimir-guerrero-jr-kazuma-okamoto-power-blue-jays",
+      "published": "Thu, 09 Jul 2026 00:19:23 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Scherzer makes 2nd rehab start, looks toward improved second half",
+      "url": "https://www.mlb.com/bluejays/news/max-scherzer-makes-second-rehab-start-at-triple-a",
+      "published": "Thu, 09 Jul 2026 00:53:16 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Fisher remembers 'amazing' father while on bereavement",
+      "url": "https://www.mlb.com/bluejays/news/braydon-fisher-fisher-mourns-deceased-father",
+      "published": "Wed, 08 Jul 2026 20:22:50 GMT",
+      "summary": ""
+    }
+  ],
+  "sources": {
+    "playoff_odds": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
+    "games": "https://statsapi.mlb.com/",
+    "news": "https://www.mlb.com/bluejays/feeds/news/rss.xml"
+  },
+  "notes": []
+}
