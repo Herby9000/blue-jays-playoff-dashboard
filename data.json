@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-07-10T00:13:47Z",
+  "generated_at_utc": "2026-07-10T17:14:00Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 32.7,
-    "label": "32.7%",
+    "probability_pct": 32.8,
+    "label": "32.8%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "79.6 - 82.4",
+    "final_record_projection": "79.7 - 82.3",
     "notes": []
   },
   "last_five_games": [
@@ -100,6 +100,18 @@
   },
   "news": [
     {
+      "title": "Blue Jays ready to get creative to find value in Draft",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-2026-draft-preview",
+      "published": "Wed, 08 Jul 2026 16:38:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "What will Blue Jays do at Deadline with crowded AL playoff picture?",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-2026-trade-deadline-plans",
+      "published": "Fri, 10 Jul 2026 14:05:57 GMT",
+      "summary": ""
+    },
+    {
       "title": "From 13th-round Draft pick to All-Star manager: Schneider reflects on journey",
       "url": "https://www.mlb.com/bluejays/news/john-schneider-on-managing-all-star-game",
       "published": "Thu, 09 Jul 2026 10:56:27 GMT",
@@ -115,18 +127,6 @@
       "title": "Key takeaways: Blue Jays 10, Giants 0",
       "url": "https://www.mlb.com/bluejays/news/dylan-cease-vladimir-guerrero-jr-kazuma-okamoto-power-blue-jays",
       "published": "Thu, 09 Jul 2026 00:19:23 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Scherzer makes 2nd rehab start, looks toward improved second half",
-      "url": "https://www.mlb.com/bluejays/news/max-scherzer-makes-second-rehab-start-at-triple-a",
-      "published": "Thu, 09 Jul 2026 00:53:16 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Fisher remembers 'amazing' father while on bereavement",
-      "url": "https://www.mlb.com/bluejays/news/braydon-fisher-fisher-mourns-deceased-father",
-      "published": "Wed, 08 Jul 2026 20:22:50 GMT",
       "summary": ""
     }
   ],
