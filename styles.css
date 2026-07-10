@@ -55,10 +55,10 @@ h1 {
 }
 .team-logo {
   flex: 0 0 auto;
-  width: 128px;
+  width: 72px;
   height: auto;
-  padding: 14px;
-  border-radius: 30px;
+  padding: 8px;
+  border-radius: 18px;
   background: rgba(255, 255, 255, 0.86);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
@@ -172,7 +172,7 @@ footer {
 }
 @media (max-width: 800px) {
   .hero { align-items: flex-start; }
-  .team-logo { width: 86px; padding: 10px; border-radius: 22px; }
+  .team-logo { width: 52px; padding: 6px; border-radius: 14px; }
   .top-grid, .content-grid { grid-template-columns: 1fr; }
   .card { padding: 22px; border-radius: 22px; }
   footer { flex-direction: column; }
