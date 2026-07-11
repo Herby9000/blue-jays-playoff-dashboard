@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-10T17:14:00Z",
+  "generated_at_utc": "2026-07-11T14:33:42Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 32.8,
-    "label": "32.8%",
+    "probability_pct": 34.1,
+    "label": "34.1%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "79.7 - 82.3",
+    "final_record_projection": "80.2 - 81.8",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 823278,
+      "date": "2026-07-10",
+      "game_date_utc": "2026-07-11T01:40:00Z",
+      "opponent": "San Diego Padres",
+      "opponent_abbrev": "SD",
+      "home_away": "away",
+      "venue": "Petco Park",
+      "status": "Final",
+      "result": "W",
+      "blue_jays_score": 5,
+      "opponent_score": 3,
+      "summary": "W 5-3 @ San Diego Padres"
+    },
     {
       "game_pk": 823202,
       "date": "2026-07-08",
@@ -68,26 +82,12 @@
       "blue_jays_score": 0,
       "opponent_score": 4,
       "summary": "L 0-4 @ Seattle Mariners"
-    },
-    {
-      "game_pk": 823118,
-      "date": "2026-07-04",
-      "game_date_utc": "2026-07-04T20:10:00Z",
-      "opponent": "Seattle Mariners",
-      "opponent_abbrev": "SEA",
-      "home_away": "away",
-      "venue": "T-Mobile Park",
-      "status": "Final",
-      "result": "L",
-      "blue_jays_score": 0,
-      "opponent_score": 11,
-      "summary": "L 0-11 @ Seattle Mariners"
     }
   ],
   "next_game": {
-    "game_pk": 823278,
-    "date": "2026-07-10",
-    "game_date_utc": "2026-07-11T01:40:00Z",
+    "game_pk": 823276,
+    "date": "2026-07-11",
+    "game_date_utc": "2026-07-12T00:40:00Z",
     "opponent": "San Diego Padres",
     "opponent_abbrev": "SD",
     "home_away": "away",
@@ -100,33 +100,33 @@
   },
   "news": [
     {
+      "title": "'Very manly' Okamoto ties Ohtani's rookie record -- and it's not even the All-Star break",
+      "url": "https://www.mlb.com/bluejays/news/kazuma-okamoto-ties-shohei-ohtani-s-record-for-homers-by-japanese-born-rookie",
+      "published": "Sat, 11 Jul 2026 05:30:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Key takeaways: Rookie star ties a record; key players on the upswing",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-open-series-vs-padres-with-third-straight-win",
+      "published": "Sat, 11 Jul 2026 05:59:00 GMT",
+      "summary": ""
+    },
+    {
       "title": "Blue Jays ready to get creative to find value in Draft",
       "url": "https://www.mlb.com/bluejays/news/blue-jays-2026-draft-preview",
       "published": "Wed, 08 Jul 2026 16:38:00 GMT",
       "summary": ""
     },
     {
-      "title": "What will Blue Jays do at Deadline with crowded AL playoff picture?",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-2026-trade-deadline-plans",
-      "published": "Fri, 10 Jul 2026 14:05:57 GMT",
+      "title": "MLB Pipeline's final mock draft predictions!",
+      "url": "https://www.mlb.com/bluejays/news/final-mlb-mock-draft-2026",
+      "published": "Sat, 11 Jul 2026 04:06:00 GMT",
       "summary": ""
     },
     {
-      "title": "From 13th-round Draft pick to All-Star manager: Schneider reflects on journey",
-      "url": "https://www.mlb.com/bluejays/news/john-schneider-on-managing-all-star-game",
-      "published": "Thu, 09 Jul 2026 10:56:27 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Cease comes 3 outs from ending 36-year no-no drought, then asks: 'How many K's did I have?'",
-      "url": "https://www.mlb.com/bluejays/news/dylan-cease-takes-no-hitter-into-ninth-inning-vs-giants",
-      "published": "Wed, 08 Jul 2026 23:57:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Key takeaways: Blue Jays 10, Giants 0",
-      "url": "https://www.mlb.com/bluejays/news/dylan-cease-vladimir-guerrero-jr-kazuma-okamoto-power-blue-jays",
-      "published": "Thu, 09 Jul 2026 00:19:23 GMT",
+      "title": "Blue Jays trade reliever Nance to Twins for catcher prospect Sprock",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-trade-reliever-tommy-nance-to-twins",
+      "published": "Sat, 11 Jul 2026 00:44:00 GMT",
       "summary": ""
     }
   ],
