@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-12T14:40:54Z",
+  "generated_at_utc": "2026-07-13T17:34:52Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 28.6,
-    "label": "28.6%",
+    "probability_pct": 23.7,
+    "label": "23.7%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "79.7 - 82.3",
+    "final_record_projection": "79.1 - 82.9",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 823274,
+      "date": "2026-07-12",
+      "game_date_utc": "2026-07-12T20:10:00Z",
+      "opponent": "San Diego Padres",
+      "opponent_abbrev": "SD",
+      "home_away": "away",
+      "venue": "Petco Park",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 4,
+      "opponent_score": 5,
+      "summary": "L 4-5 @ San Diego Padres"
+    },
     {
       "game_pk": 823276,
       "date": "2026-07-11",
@@ -68,65 +82,51 @@
       "blue_jays_score": 9,
       "opponent_score": 3,
       "summary": "W 9-3 @ San Francisco Giants"
-    },
-    {
-      "game_pk": 823205,
-      "date": "2026-07-06",
-      "game_date_utc": "2026-07-07T01:45:00Z",
-      "opponent": "San Francisco Giants",
-      "opponent_abbrev": "SF",
-      "home_away": "away",
-      "venue": "Oracle Park",
-      "status": "Final",
-      "result": "L",
-      "blue_jays_score": 1,
-      "opponent_score": 10,
-      "summary": "L 1-10 @ San Francisco Giants"
     }
   ],
   "next_game": {
-    "game_pk": 823274,
-    "date": "2026-07-12",
-    "game_date_utc": "2026-07-12T20:10:00Z",
-    "opponent": "San Diego Padres",
-    "opponent_abbrev": "SD",
-    "home_away": "away",
-    "venue": "Petco Park",
+    "game_pk": 822789,
+    "date": "2026-07-17",
+    "game_date_utc": "2026-07-17T23:15:00Z",
+    "opponent": "Chicago White Sox",
+    "opponent_abbrev": "CWS",
+    "home_away": "home",
+    "venue": "Rogers Centre",
     "status": "Scheduled",
     "result": null,
     "blue_jays_score": null,
     "opponent_score": null,
-    "summary": "@ San Diego Padres"
+    "summary": "vs Chicago White Sox"
   },
   "news": [
     {
-      "title": "'He's got two October pitches': Blue Jays draft ASU lefty Carlon with 1st pick",
-      "url": "https://www.mlb.com/bluejays/news/cole-carlon-selected-by-blue-jays-as-no-39-pick-in-draft",
-      "published": "Sun, 12 Jul 2026 01:29:00 GMT",
+      "title": "From 13th-round Draft pick to All-Star manager: Schneider reflects on journey",
+      "url": "https://www.mlb.com/bluejays/news/john-schneider-on-managing-all-star-game",
+      "published": "Mon, 13 Jul 2026 14:39:00 GMT",
       "summary": ""
     },
     {
-      "title": "Yesavage 'out of whack' in loss to Padres -- but is Vladdy back on track?",
-      "url": "https://www.mlb.com/bluejays/news/trey-yesavage-struggles-with-command-in-blue-jays-loss",
-      "published": "Sun, 12 Jul 2026 04:38:00 GMT",
+      "title": "Oysters? Cats? Here's how Cease found out he was starting All-Star Game",
+      "url": "https://www.mlb.com/bluejays/news/dylan-cease-to-start-2026-all-star-game",
+      "published": "Sun, 12 Jul 2026 20:31:00 GMT",
       "summary": ""
     },
     {
-      "title": "Here are Blue Jays' Day 1 Draft picks. Here’s how to follow Day 2",
+      "title": "Here's a look at the Blue Jays in the All-Star Game",
+      "url": "https://www.mlb.com/bluejays/news/dylan-cease-louis-varland-vladimir-guerrero-jr-ernie-clement-are-blue-jays-all-stars",
+      "published": "Sun, 05 Jul 2026 00:08:25 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Here are the Blue Jays' 2026 Draft picks",
       "url": "https://www.mlb.com/bluejays/news/blue-jays-2026-draft-picks",
-      "published": "Sun, 12 Jul 2026 01:41:56 GMT",
+      "published": "Sun, 12 Jul 2026 23:54:00 GMT",
       "summary": ""
     },
     {
-      "title": "Who are best available players for Draft Day 2? (MLB.com, MLB.TV: 11:30 a.m. ET)",
-      "url": "https://www.mlb.com/bluejays/news/2026-mlb-draft-day-2-overview-schedule",
-      "published": "Sun, 12 Jul 2026 01:30:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Draft Day 1: Pick-by-pick rundown, analysis",
-      "url": "https://www.mlb.com/bluejays/news/2026-mlb-draft-day-1-complete-coverage",
-      "published": "Sat, 11 Jul 2026 23:48:00 GMT",
+      "title": "Blue Jays sense urgency as 'make-or-break' second half lies ahead",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-end-first-half-with-loss-to-padres",
+      "published": "Sun, 12 Jul 2026 23:44:00 GMT",
       "summary": ""
     }
   ],
