@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-13T17:34:52Z",
+  "generated_at_utc": "2026-07-14T15:13:17Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 23.7,
-    "label": "23.7%",
+    "probability_pct": 24.2,
+    "label": "24.2%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
     "final_record_projection": "79.1 - 82.9",
@@ -106,9 +106,15 @@
       "summary": ""
     },
     {
-      "title": "Oysters? Cats? Here's how Cease found out he was starting All-Star Game",
+      "title": "All-Star surprise! Blue Jays skipper fields media question from 9-year-old son",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-manager-john-schneider-answers-question-from-son-gunner-at-all-star-game",
+      "published": "Mon, 13 Jul 2026 19:48:38 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Schneider on Cease starting for AL: 'The decision was Dylan regardless'",
       "url": "https://www.mlb.com/bluejays/news/dylan-cease-to-start-2026-all-star-game",
-      "published": "Sun, 12 Jul 2026 20:31:00 GMT",
+      "published": "Mon, 13 Jul 2026 21:37:00 GMT",
       "summary": ""
     },
     {
@@ -118,15 +124,9 @@
       "summary": ""
     },
     {
-      "title": "Here are the Blue Jays' 2026 Draft picks",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-2026-draft-picks",
-      "published": "Sun, 12 Jul 2026 23:54:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Blue Jays sense urgency as 'make-or-break' second half lies ahead",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-end-first-half-with-loss-to-padres",
-      "published": "Sun, 12 Jul 2026 23:44:00 GMT",
+      "title": "Cease, Sánchez are 1st All-Star starters for their teams since ... the same person?",
+      "url": "https://www.mlb.com/bluejays/news/how-roy-halladay-connects-all-star-game-starting-pitchers-cristopher-sanchez-dylan-cease",
+      "published": "Mon, 13 Jul 2026 22:52:27 GMT",
       "summary": ""
     }
   ],
