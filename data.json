@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-16T15:50:44Z",
+  "generated_at_utc": "2026-07-17T15:01:20Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 24.3,
-    "label": "24.3%",
+    "probability_pct": 23.7,
+    "label": "23.7%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
     "final_record_projection": "79.1 - 82.9",
@@ -100,9 +100,21 @@
   },
   "news": [
     {
+      "title": "Each team's biggest trade chip as Deadline nears",
+      "url": "https://www.mlb.com/bluejays/news/every-mlb-team-biggest-trade-deadline-chip-2026",
+      "published": "Fri, 17 Jul 2026 01:04:02 GMT",
+      "summary": ""
+    },
+    {
       "title": "With 66 games left, Blue Jays face uphill battle in AL Wild Card race",
       "url": "https://www.mlb.com/bluejays/news/blue-jays-face-white-sox-rays-to-begin-second-half",
       "published": "Thu, 16 Jul 2026 14:50:11 GMT",
+      "summary": ""
+    },
+    {
+      "title": "MLB releases 2027 regular-season schedule",
+      "url": "https://www.mlb.com/bluejays/news/mlb-2027-schedule-released",
+      "published": "Thu, 16 Jul 2026 19:32:43 GMT",
       "summary": ""
     },
     {
@@ -114,19 +126,7 @@
     {
       "title": "Cease climbs to third in Starting Pitcher Power Rankings",
       "url": "https://www.mlb.com/bluejays/news/mlb-eighth-starting-pitcher-power-rankings-2026",
-      "published": "Thu, 16 Jul 2026 01:23:14 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Each team's biggest need at this year's Deadline",
-      "url": "https://www.mlb.com/bluejays/news/2026-mlb-trade-deadline-biggest-need-for-each-team",
-      "published": "Wed, 15 Jul 2026 15:20:06 GMT",
-      "summary": ""
-    },
-    {
-      "title": "In City of Brotherly Love, AL rides 3-run 1st to win All-Star Game",
-      "url": "https://www.mlb.com/bluejays/news/al-beats-nl-in-2026-mlb-all-star-game",
-      "published": "Wed, 15 Jul 2026 04:35:00 GMT",
+      "published": "Thu, 16 Jul 2026 17:45:00 GMT",
       "summary": ""
     }
   ],
