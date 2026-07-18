@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-17T15:01:20Z",
+  "generated_at_utc": "2026-07-18T14:32:50Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 23.7,
-    "label": "23.7%",
+    "probability_pct": 17.6,
+    "label": "17.6%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "79.1 - 82.9",
+    "final_record_projection": "78.3 - 83.7",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822789,
+      "date": "2026-07-17",
+      "game_date_utc": "2026-07-17T23:15:00Z",
+      "opponent": "Chicago White Sox",
+      "opponent_abbrev": "CWS",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 4,
+      "opponent_score": 12,
+      "summary": "L 4-12 vs Chicago White Sox"
+    },
     {
       "game_pk": 823274,
       "date": "2026-07-12",
@@ -68,26 +82,12 @@
       "blue_jays_score": 10,
       "opponent_score": 0,
       "summary": "W 10-0 @ San Francisco Giants"
-    },
-    {
-      "game_pk": 823203,
-      "date": "2026-07-07",
-      "game_date_utc": "2026-07-08T01:45:00Z",
-      "opponent": "San Francisco Giants",
-      "opponent_abbrev": "SF",
-      "home_away": "away",
-      "venue": "Oracle Park",
-      "status": "Final",
-      "result": "W",
-      "blue_jays_score": 9,
-      "opponent_score": 3,
-      "summary": "W 9-3 @ San Francisco Giants"
     }
   ],
   "next_game": {
-    "game_pk": 822789,
-    "date": "2026-07-17",
-    "game_date_utc": "2026-07-17T23:15:00Z",
+    "game_pk": 822790,
+    "date": "2026-07-18",
+    "game_date_utc": "2026-07-18T19:07:00Z",
     "opponent": "Chicago White Sox",
     "opponent_abbrev": "CWS",
     "home_away": "home",
@@ -100,33 +100,33 @@
   },
   "news": [
     {
+      "title": "As Trade Deadline looms, where could Miles end up on Toronto's staff?",
+      "url": "https://www.mlb.com/bluejays/news/spencer-miles-role-as-a-starter-for-blue-jays-for-rest-of-2026",
+      "published": "Sat, 18 Jul 2026 03:30:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Barger, Scherzer among Blue Jays waiting for good news on injury front",
+      "url": "https://www.mlb.com/bluejays/news/addison-barger-max-scherzer-experiencing-delays-in-injury-rehabs",
+      "published": "Fri, 17 Jul 2026 22:44:01 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Blue Jays, top pick Carlon agree to deal just below slot value (source)",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-cole-carlon-deal",
+      "published": "Fri, 17 Jul 2026 17:30:57 GMT",
+      "summary": ""
+    },
+    {
+      "title": "1 key player for each team in the second half",
+      "url": "https://www.mlb.com/bluejays/news/key-player-for-each-team-in-second-half-2026",
+      "published": "Sat, 18 Jul 2026 03:16:22 GMT",
+      "summary": ""
+    },
+    {
       "title": "Each team's biggest trade chip as Deadline nears",
       "url": "https://www.mlb.com/bluejays/news/every-mlb-team-biggest-trade-deadline-chip-2026",
       "published": "Fri, 17 Jul 2026 01:04:02 GMT",
-      "summary": ""
-    },
-    {
-      "title": "With 66 games left, Blue Jays face uphill battle in AL Wild Card race",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-face-white-sox-rays-to-begin-second-half",
-      "published": "Thu, 16 Jul 2026 14:50:11 GMT",
-      "summary": ""
-    },
-    {
-      "title": "MLB releases 2027 regular-season schedule",
-      "url": "https://www.mlb.com/bluejays/news/mlb-2027-schedule-released",
-      "published": "Thu, 16 Jul 2026 19:32:43 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Could Trade Deadline be answer to Blue Jays' lackluster first half?",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-looking-to-improve-ahead-of-trade-deadline",
-      "published": "Wed, 15 Jul 2026 16:19:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Cease climbs to third in Starting Pitcher Power Rankings",
-      "url": "https://www.mlb.com/bluejays/news/mlb-eighth-starting-pitcher-power-rankings-2026",
-      "published": "Thu, 16 Jul 2026 17:45:00 GMT",
       "summary": ""
     }
   ],
