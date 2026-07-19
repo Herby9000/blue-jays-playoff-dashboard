@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-18T14:32:50Z",
+  "generated_at_utc": "2026-07-19T14:37:55Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 17.6,
-    "label": "17.6%",
+    "probability_pct": 19.3,
+    "label": "19.3%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "78.3 - 83.7",
+    "final_record_projection": "78.7 - 83.3",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822790,
+      "date": "2026-07-18",
+      "game_date_utc": "2026-07-18T19:07:00Z",
+      "opponent": "Chicago White Sox",
+      "opponent_abbrev": "CWS",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "W",
+      "blue_jays_score": 1,
+      "opponent_score": 0,
+      "summary": "W 1-0 vs Chicago White Sox"
+    },
     {
       "game_pk": 822789,
       "date": "2026-07-17",
@@ -68,65 +82,51 @@
       "blue_jays_score": 5,
       "opponent_score": 3,
       "summary": "W 5-3 @ San Diego Padres"
-    },
-    {
-      "game_pk": 823202,
-      "date": "2026-07-08",
-      "game_date_utc": "2026-07-08T19:45:00Z",
-      "opponent": "San Francisco Giants",
-      "opponent_abbrev": "SF",
-      "home_away": "away",
-      "venue": "Oracle Park",
-      "status": "Final",
-      "result": "W",
-      "blue_jays_score": 10,
-      "opponent_score": 0,
-      "summary": "W 10-0 @ San Francisco Giants"
     }
   ],
   "next_game": {
-    "game_pk": 822790,
-    "date": "2026-07-18",
-    "game_date_utc": "2026-07-18T19:07:00Z",
+    "game_pk": 822786,
+    "date": "2026-07-19",
+    "game_date_utc": "2026-07-19T16:15:00Z",
     "opponent": "Chicago White Sox",
     "opponent_abbrev": "CWS",
     "home_away": "home",
     "venue": "Rogers Centre",
-    "status": "Scheduled",
-    "result": null,
-    "blue_jays_score": null,
-    "opponent_score": null,
-    "summary": "vs Chicago White Sox"
+    "status": "Pre-Game",
+    "result": "L",
+    "blue_jays_score": 0,
+    "opponent_score": 0,
+    "summary": "L 0-0 vs Chicago White Sox"
   },
   "news": [
+    {
+      "title": "Ward, legendary Blue Jays reliever and two-time champion, dies at 62",
+      "url": "https://www.mlb.com/bluejays/news/duane-ward-dies",
+      "published": "Sun, 19 Jul 2026 14:32:46 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Blue Jays honor 1992-93 back-to-back championship teams with new statue outside Rogers Centre",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-unveil-back-to-back-world-series-statue-at-rogers-centre",
+      "published": "Sat, 18 Jul 2026 20:39:34 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Vlad shakes off dust, Bieber spins six scoreless in Blue Jays win",
+      "url": "https://www.mlb.com/bluejays/news/shane-bieber-leads-blue-jays-to-shutout-win-over-white-sox",
+      "published": "Sun, 19 Jul 2026 00:02:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "'There's a brotherhood': Beloved 1992-93 Blue Jays reunite to celebrate back-to-back titles",
+      "url": "https://www.mlb.com/bluejays/news/1992-93-blue-jays-reunite-to-honor-back-to-back-world-series-championships",
+      "published": "Sun, 19 Jul 2026 00:16:25 GMT",
+      "summary": ""
+    },
     {
       "title": "As Trade Deadline looms, where could Miles end up on Toronto's staff?",
       "url": "https://www.mlb.com/bluejays/news/spencer-miles-role-as-a-starter-for-blue-jays-for-rest-of-2026",
       "published": "Sat, 18 Jul 2026 03:30:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Barger, Scherzer among Blue Jays waiting for good news on injury front",
-      "url": "https://www.mlb.com/bluejays/news/addison-barger-max-scherzer-experiencing-delays-in-injury-rehabs",
-      "published": "Fri, 17 Jul 2026 22:44:01 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Blue Jays, top pick Carlon agree to deal just below slot value (source)",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-cole-carlon-deal",
-      "published": "Fri, 17 Jul 2026 17:30:57 GMT",
-      "summary": ""
-    },
-    {
-      "title": "1 key player for each team in the second half",
-      "url": "https://www.mlb.com/bluejays/news/key-player-for-each-team-in-second-half-2026",
-      "published": "Sat, 18 Jul 2026 03:16:22 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Each team's biggest trade chip as Deadline nears",
-      "url": "https://www.mlb.com/bluejays/news/every-mlb-team-biggest-trade-deadline-chip-2026",
-      "published": "Fri, 17 Jul 2026 01:04:02 GMT",
       "summary": ""
     }
   ],
