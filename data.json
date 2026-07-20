@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-19T14:37:55Z",
+  "generated_at_utc": "2026-07-20T16:10:56Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 19.3,
-    "label": "19.3%",
+    "probability_pct": 16.3,
+    "label": "16.3%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "78.7 - 83.3",
+    "final_record_projection": "78.2 - 83.8",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822786,
+      "date": "2026-07-19",
+      "game_date_utc": "2026-07-19T16:15:00Z",
+      "opponent": "Chicago White Sox",
+      "opponent_abbrev": "CWS",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 0,
+      "opponent_score": 3,
+      "summary": "L 0-3 vs Chicago White Sox"
+    },
     {
       "game_pk": 822790,
       "date": "2026-07-18",
@@ -68,43 +82,23 @@
       "blue_jays_score": 7,
       "opponent_score": 8,
       "summary": "L 7-8 @ San Diego Padres"
-    },
-    {
-      "game_pk": 823278,
-      "date": "2026-07-10",
-      "game_date_utc": "2026-07-11T01:40:00Z",
-      "opponent": "San Diego Padres",
-      "opponent_abbrev": "SD",
-      "home_away": "away",
-      "venue": "Petco Park",
-      "status": "Final",
-      "result": "W",
-      "blue_jays_score": 5,
-      "opponent_score": 3,
-      "summary": "W 5-3 @ San Diego Padres"
     }
   ],
   "next_game": {
-    "game_pk": 822786,
-    "date": "2026-07-19",
-    "game_date_utc": "2026-07-19T16:15:00Z",
-    "opponent": "Chicago White Sox",
-    "opponent_abbrev": "CWS",
+    "game_pk": 822788,
+    "date": "2026-07-20",
+    "game_date_utc": "2026-07-20T23:07:00Z",
+    "opponent": "Tampa Bay Rays",
+    "opponent_abbrev": "TB",
     "home_away": "home",
     "venue": "Rogers Centre",
-    "status": "Pre-Game",
-    "result": "L",
-    "blue_jays_score": 0,
-    "opponent_score": 0,
-    "summary": "L 0-0 vs Chicago White Sox"
+    "status": "Scheduled",
+    "result": null,
+    "blue_jays_score": null,
+    "opponent_score": null,
+    "summary": "vs Tampa Bay Rays"
   },
   "news": [
-    {
-      "title": "Ward, legendary Blue Jays reliever and two-time champion, dies at 62",
-      "url": "https://www.mlb.com/bluejays/news/duane-ward-dies",
-      "published": "Sun, 19 Jul 2026 14:32:46 GMT",
-      "summary": ""
-    },
     {
       "title": "Blue Jays honor 1992-93 back-to-back championship teams with new statue outside Rogers Centre",
       "url": "https://www.mlb.com/bluejays/news/blue-jays-unveil-back-to-back-world-series-statue-at-rogers-centre",
@@ -112,21 +106,27 @@
       "summary": ""
     },
     {
+      "title": "1 key player for each team in the second half",
+      "url": "https://www.mlb.com/bluejays/news/key-player-for-each-team-in-second-half-2026",
+      "published": "Sat, 18 Jul 2026 03:16:22 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Yesavage's 9-K start a bright spot on another quiet day for Blue Jays' bats",
+      "url": "https://www.mlb.com/bluejays/news/trey-yesavage-quality-start-blue-jays-lose-to-white-sox",
+      "published": "Sun, 19 Jul 2026 20:05:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Ward, legendary Blue Jays reliever and two-time champion, dies at 62",
+      "url": "https://www.mlb.com/bluejays/news/duane-ward-dies",
+      "published": "Sun, 19 Jul 2026 19:49:00 GMT",
+      "summary": ""
+    },
+    {
       "title": "Vlad shakes off dust, Bieber spins six scoreless in Blue Jays win",
       "url": "https://www.mlb.com/bluejays/news/shane-bieber-leads-blue-jays-to-shutout-win-over-white-sox",
       "published": "Sun, 19 Jul 2026 00:02:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "'There's a brotherhood': Beloved 1992-93 Blue Jays reunite to celebrate back-to-back titles",
-      "url": "https://www.mlb.com/bluejays/news/1992-93-blue-jays-reunite-to-honor-back-to-back-world-series-championships",
-      "published": "Sun, 19 Jul 2026 00:16:25 GMT",
-      "summary": ""
-    },
-    {
-      "title": "As Trade Deadline looms, where could Miles end up on Toronto's staff?",
-      "url": "https://www.mlb.com/bluejays/news/spencer-miles-role-as-a-starter-for-blue-jays-for-rest-of-2026",
-      "published": "Sat, 18 Jul 2026 03:30:00 GMT",
       "summary": ""
     }
   ],
