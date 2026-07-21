@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-20T16:10:56Z",
+  "generated_at_utc": "2026-07-21T16:01:15Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 16.3,
-    "label": "16.3%",
+    "probability_pct": 11.6,
+    "label": "11.6%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "78.2 - 83.8",
+    "final_record_projection": "77.4 - 84.6",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822788,
+      "date": "2026-07-20",
+      "game_date_utc": "2026-07-20T23:07:00Z",
+      "opponent": "Tampa Bay Rays",
+      "opponent_abbrev": "TB",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 1,
+      "opponent_score": 7,
+      "summary": "L 1-7 vs Tampa Bay Rays"
+    },
     {
       "game_pk": 822786,
       "date": "2026-07-19",
@@ -68,26 +82,12 @@
       "blue_jays_score": 4,
       "opponent_score": 5,
       "summary": "L 4-5 @ San Diego Padres"
-    },
-    {
-      "game_pk": 823276,
-      "date": "2026-07-11",
-      "game_date_utc": "2026-07-12T00:40:00Z",
-      "opponent": "San Diego Padres",
-      "opponent_abbrev": "SD",
-      "home_away": "away",
-      "venue": "Petco Park",
-      "status": "Final",
-      "result": "L",
-      "blue_jays_score": 7,
-      "opponent_score": 8,
-      "summary": "L 7-8 @ San Diego Padres"
     }
   ],
   "next_game": {
-    "game_pk": 822788,
-    "date": "2026-07-20",
-    "game_date_utc": "2026-07-20T23:07:00Z",
+    "game_pk": 822787,
+    "date": "2026-07-21",
+    "game_date_utc": "2026-07-21T23:07:00Z",
     "opponent": "Tampa Bay Rays",
     "opponent_abbrev": "TB",
     "home_away": "home",
@@ -99,6 +99,18 @@
     "summary": "vs Tampa Bay Rays"
   },
   "news": [
+    {
+      "title": "Frustrations build as Blue Jays' offense continues to struggle, Cease falters",
+      "url": "https://www.mlb.com/bluejays/news/dylan-cease-strikes-out-seven-in-loss-to-rays",
+      "published": "Tue, 21 Jul 2026 03:12:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Cease lands in 2nd in latest Cy Young poll",
+      "url": "https://www.mlb.com/bluejays/news/cam-schlittler-jacob-misiorowski-lead-fourth-2026-cy-young-poll",
+      "published": "Tue, 21 Jul 2026 04:02:54 GMT",
+      "summary": ""
+    },
     {
       "title": "Blue Jays honor 1992-93 back-to-back championship teams with new statue outside Rogers Centre",
       "url": "https://www.mlb.com/bluejays/news/blue-jays-unveil-back-to-back-world-series-statue-at-rogers-centre",
@@ -115,18 +127,6 @@
       "title": "Yesavage's 9-K start a bright spot on another quiet day for Blue Jays' bats",
       "url": "https://www.mlb.com/bluejays/news/trey-yesavage-quality-start-blue-jays-lose-to-white-sox",
       "published": "Sun, 19 Jul 2026 20:05:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Ward, legendary Blue Jays reliever and two-time champion, dies at 62",
-      "url": "https://www.mlb.com/bluejays/news/duane-ward-dies",
-      "published": "Sun, 19 Jul 2026 19:49:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Vlad shakes off dust, Bieber spins six scoreless in Blue Jays win",
-      "url": "https://www.mlb.com/bluejays/news/shane-bieber-leads-blue-jays-to-shutout-win-over-white-sox",
-      "published": "Sun, 19 Jul 2026 00:02:00 GMT",
       "summary": ""
     }
   ],
