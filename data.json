@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-21T16:01:15Z",
+  "generated_at_utc": "2026-07-22T15:55:11Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 11.6,
-    "label": "11.6%",
+    "probability_pct": 8.2,
+    "label": "8.2%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "77.4 - 84.6",
+    "final_record_projection": "76.6 - 85.4",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822787,
+      "date": "2026-07-21",
+      "game_date_utc": "2026-07-21T23:07:00Z",
+      "opponent": "Tampa Bay Rays",
+      "opponent_abbrev": "TB",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 2,
+      "opponent_score": 12,
+      "summary": "L 2-12 vs Tampa Bay Rays"
+    },
     {
       "game_pk": 822788,
       "date": "2026-07-20",
@@ -68,26 +82,12 @@
       "blue_jays_score": 4,
       "opponent_score": 12,
       "summary": "L 4-12 vs Chicago White Sox"
-    },
-    {
-      "game_pk": 823274,
-      "date": "2026-07-12",
-      "game_date_utc": "2026-07-12T20:10:00Z",
-      "opponent": "San Diego Padres",
-      "opponent_abbrev": "SD",
-      "home_away": "away",
-      "venue": "Petco Park",
-      "status": "Final",
-      "result": "L",
-      "blue_jays_score": 4,
-      "opponent_score": 5,
-      "summary": "L 4-5 @ San Diego Padres"
     }
   ],
   "next_game": {
-    "game_pk": 822787,
-    "date": "2026-07-21",
-    "game_date_utc": "2026-07-21T23:07:00Z",
+    "game_pk": 822784,
+    "date": "2026-07-22",
+    "game_date_utc": "2026-07-22T23:07:00Z",
     "opponent": "Tampa Bay Rays",
     "opponent_abbrev": "TB",
     "home_away": "home",
@@ -100,6 +100,24 @@
   },
   "news": [
     {
+      "title": "Gausman not thinking about Trade Deadline after latest rough outing",
+      "url": "https://www.mlb.com/bluejays/news/kevin-gausman-brushes-off-trade-buzz-after-tough-start",
+      "published": "Wed, 22 Jul 2026 03:51:36 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Key takeaways: Rays 12, Blue Jays 2",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-power-struggles-continue-in-loss-to-rays",
+      "published": "Wed, 22 Jul 2026 04:28:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "LHP Cole Carlon could blaze a path to The Show",
+      "url": "https://www.mlb.com/bluejays/news/mlb-2026-draft-picks-who-could-be-quickest-to-reach-majors",
+      "published": "Tue, 21 Jul 2026 23:38:00 GMT",
+      "summary": ""
+    },
+    {
       "title": "Frustrations build as Blue Jays' offense continues to struggle, Cease falters",
       "url": "https://www.mlb.com/bluejays/news/dylan-cease-strikes-out-seven-in-loss-to-rays",
       "published": "Tue, 21 Jul 2026 03:12:00 GMT",
@@ -108,25 +126,7 @@
     {
       "title": "Cease lands in 2nd in latest Cy Young poll",
       "url": "https://www.mlb.com/bluejays/news/cam-schlittler-jacob-misiorowski-lead-fourth-2026-cy-young-poll",
-      "published": "Tue, 21 Jul 2026 04:02:54 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Blue Jays honor 1992-93 back-to-back championship teams with new statue outside Rogers Centre",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-unveil-back-to-back-world-series-statue-at-rogers-centre",
-      "published": "Sat, 18 Jul 2026 20:39:34 GMT",
-      "summary": ""
-    },
-    {
-      "title": "1 key player for each team in the second half",
-      "url": "https://www.mlb.com/bluejays/news/key-player-for-each-team-in-second-half-2026",
-      "published": "Sat, 18 Jul 2026 03:16:22 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Yesavage's 9-K start a bright spot on another quiet day for Blue Jays' bats",
-      "url": "https://www.mlb.com/bluejays/news/trey-yesavage-quality-start-blue-jays-lose-to-white-sox",
-      "published": "Sun, 19 Jul 2026 20:05:00 GMT",
+      "published": "Tue, 21 Jul 2026 17:40:00 GMT",
       "summary": ""
     }
   ],
