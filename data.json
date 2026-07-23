@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-22T15:55:11Z",
+  "generated_at_utc": "2026-07-23T16:11:03Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 8.2,
-    "label": "8.2%",
+    "probability_pct": 6.3,
+    "label": "6.3%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "76.6 - 85.4",
+    "final_record_projection": "76.0 - 86.0",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822784,
+      "date": "2026-07-22",
+      "game_date_utc": "2026-07-22T23:07:00Z",
+      "opponent": "Tampa Bay Rays",
+      "opponent_abbrev": "TB",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "L",
+      "blue_jays_score": 2,
+      "opponent_score": 4,
+      "summary": "L 2-4 vs Tampa Bay Rays"
+    },
     {
       "game_pk": 822787,
       "date": "2026-07-21",
@@ -68,31 +82,17 @@
       "blue_jays_score": 1,
       "opponent_score": 0,
       "summary": "W 1-0 vs Chicago White Sox"
-    },
-    {
-      "game_pk": 822789,
-      "date": "2026-07-17",
-      "game_date_utc": "2026-07-17T23:15:00Z",
-      "opponent": "Chicago White Sox",
-      "opponent_abbrev": "CWS",
-      "home_away": "home",
-      "venue": "Rogers Centre",
-      "status": "Final",
-      "result": "L",
-      "blue_jays_score": 4,
-      "opponent_score": 12,
-      "summary": "L 4-12 vs Chicago White Sox"
     }
   ],
   "next_game": {
-    "game_pk": 822784,
-    "date": "2026-07-22",
-    "game_date_utc": "2026-07-22T23:07:00Z",
+    "game_pk": 822785,
+    "date": "2026-07-23",
+    "game_date_utc": "2026-07-23T19:07:00Z",
     "opponent": "Tampa Bay Rays",
     "opponent_abbrev": "TB",
     "home_away": "home",
     "venue": "Rogers Centre",
-    "status": "Scheduled",
+    "status": "Pre-Game",
     "result": null,
     "blue_jays_score": null,
     "opponent_score": null,
@@ -100,33 +100,33 @@
   },
   "news": [
     {
+      "title": "Blue Jays hoping to rekindle offense, 'throw some uppercuts' as Deadline looms",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-offensive-struggles-trade-deadline",
+      "published": "Thu, 23 Jul 2026 04:45:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Scherzer mirroring peak Mad Max in latest rehab start with five no-hit innings",
+      "url": "https://www.mlb.com/bluejays/news/max-scherzer-strikes-out-seven-in-five-no-hit-innings-in-rehab-start",
+      "published": "Wed, 22 Jul 2026 22:33:19 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Each team's strategy heading into the Trade Deadline",
+      "url": "https://www.mlb.com/bluejays/news/2026-mlb-trade-deadline-strategy-for-each-team",
+      "published": "Thu, 23 Jul 2026 15:05:00 GMT",
+      "summary": ""
+    },
+    {
+      "title": "Blue Jays' No. 2 prospect Nimmala proving he belongs -- and flexing as well -- at Double-A",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-prospect-arjun-nimmala-hitting-stride-at-double-a",
+      "published": "Thu, 23 Jul 2026 01:39:28 GMT",
+      "summary": ""
+    },
+    {
       "title": "Gausman not thinking about Trade Deadline after latest rough outing",
       "url": "https://www.mlb.com/bluejays/news/kevin-gausman-brushes-off-trade-buzz-after-tough-start",
       "published": "Wed, 22 Jul 2026 03:51:36 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Key takeaways: Rays 12, Blue Jays 2",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-power-struggles-continue-in-loss-to-rays",
-      "published": "Wed, 22 Jul 2026 04:28:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "LHP Cole Carlon could blaze a path to The Show",
-      "url": "https://www.mlb.com/bluejays/news/mlb-2026-draft-picks-who-could-be-quickest-to-reach-majors",
-      "published": "Tue, 21 Jul 2026 23:38:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Frustrations build as Blue Jays' offense continues to struggle, Cease falters",
-      "url": "https://www.mlb.com/bluejays/news/dylan-cease-strikes-out-seven-in-loss-to-rays",
-      "published": "Tue, 21 Jul 2026 03:12:00 GMT",
-      "summary": ""
-    },
-    {
-      "title": "Cease lands in 2nd in latest Cy Young poll",
-      "url": "https://www.mlb.com/bluejays/news/cam-schlittler-jacob-misiorowski-lead-fourth-2026-cy-young-poll",
-      "published": "Tue, 21 Jul 2026 17:40:00 GMT",
       "summary": ""
     }
   ],
