@@ -1,18 +1,32 @@
 {
-  "generated_at_utc": "2026-07-23T16:11:03Z",
+  "generated_at_utc": "2026-07-24T15:46:42Z",
   "team": {
     "id": 141,
     "name": "Toronto Blue Jays"
   },
   "playoff_odds": {
-    "probability_pct": 6.3,
-    "label": "6.3%",
+    "probability_pct": 7.8,
+    "label": "7.8%",
     "source": "TeamRankings",
     "source_url": "https://www.teamrankings.com/mlb/team/toronto-blue-jays/projections",
-    "final_record_projection": "76.0 - 86.0",
+    "final_record_projection": "76.5 - 85.5",
     "notes": []
   },
   "last_five_games": [
+    {
+      "game_pk": 822785,
+      "date": "2026-07-23",
+      "game_date_utc": "2026-07-23T19:07:00Z",
+      "opponent": "Tampa Bay Rays",
+      "opponent_abbrev": "TB",
+      "home_away": "home",
+      "venue": "Rogers Centre",
+      "status": "Final",
+      "result": "W",
+      "blue_jays_score": 3,
+      "opponent_score": 1,
+      "summary": "W 3-1 vs Tampa Bay Rays"
+    },
     {
       "game_pk": 822784,
       "date": "2026-07-22",
@@ -68,65 +82,51 @@
       "blue_jays_score": 0,
       "opponent_score": 3,
       "summary": "L 0-3 vs Chicago White Sox"
-    },
-    {
-      "game_pk": 822790,
-      "date": "2026-07-18",
-      "game_date_utc": "2026-07-18T19:07:00Z",
-      "opponent": "Chicago White Sox",
-      "opponent_abbrev": "CWS",
-      "home_away": "home",
-      "venue": "Rogers Centre",
-      "status": "Final",
-      "result": "W",
-      "blue_jays_score": 1,
-      "opponent_score": 0,
-      "summary": "W 1-0 vs Chicago White Sox"
     }
   ],
   "next_game": {
-    "game_pk": 822785,
-    "date": "2026-07-23",
-    "game_date_utc": "2026-07-23T19:07:00Z",
-    "opponent": "Tampa Bay Rays",
-    "opponent_abbrev": "TB",
-    "home_away": "home",
-    "venue": "Rogers Centre",
-    "status": "Pre-Game",
+    "game_pk": 824733,
+    "date": "2026-07-24",
+    "game_date_utc": "2026-07-24T23:15:00Z",
+    "opponent": "Boston Red Sox",
+    "opponent_abbrev": "BOS",
+    "home_away": "away",
+    "venue": "Fenway Park",
+    "status": "Scheduled",
     "result": null,
     "blue_jays_score": null,
     "opponent_score": null,
-    "summary": "vs Tampa Bay Rays"
+    "summary": "@ Boston Red Sox"
   },
   "news": [
     {
-      "title": "Blue Jays hoping to rekindle offense, 'throw some uppercuts' as Deadline looms",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-offensive-struggles-trade-deadline",
-      "published": "Thu, 23 Jul 2026 04:45:00 GMT",
+      "title": "5 numbers that tell the story of the Blue Jays' season thus far",
+      "url": "https://www.mlb.com/bluejays/news/vladimir-guerrero-jr-blue-jays-stats-define-tough-2026-season",
+      "published": "Fri, 24 Jul 2026 14:14:27 GMT",
       "summary": ""
     },
     {
-      "title": "Scherzer mirroring peak Mad Max in latest rehab start with five no-hit innings",
-      "url": "https://www.mlb.com/bluejays/news/max-scherzer-strikes-out-seven-in-five-no-hit-innings-in-rehab-start",
-      "published": "Wed, 22 Jul 2026 22:33:19 GMT",
+      "title": "Bieber finding vintage form again with season-best 7-inning gem",
+      "url": "https://www.mlb.com/bluejays/news/shane-bieber-tosses-seven-innings-in-blue-jays-win-vs-rays",
+      "published": "Thu, 23 Jul 2026 22:52:00 GMT",
       "summary": ""
     },
     {
-      "title": "Each team's strategy heading into the Trade Deadline",
-      "url": "https://www.mlb.com/bluejays/news/2026-mlb-trade-deadline-strategy-for-each-team",
-      "published": "Thu, 23 Jul 2026 15:05:00 GMT",
+      "title": "Amid flurry of moves, Schneider back with Blue Jays, Corbin heading to IL",
+      "url": "https://www.mlb.com/bluejays/news/davis-schneider-recalled-by-blue-jays-patrick-corbin-to-injured-list",
+      "published": "Thu, 23 Jul 2026 17:51:00 GMT",
       "summary": ""
     },
     {
-      "title": "Blue Jays' No. 2 prospect Nimmala proving he belongs -- and flexing as well -- at Double-A",
-      "url": "https://www.mlb.com/bluejays/news/blue-jays-prospect-arjun-nimmala-hitting-stride-at-double-a",
-      "published": "Thu, 23 Jul 2026 01:39:28 GMT",
+      "title": "Blue Jays announce signing of top pick Carlon, 16 others from Draft class",
+      "url": "https://www.mlb.com/bluejays/news/blue-jays-cole-carlon-deal",
+      "published": "Thu, 23 Jul 2026 20:13:00 GMT",
       "summary": ""
     },
     {
-      "title": "Gausman not thinking about Trade Deadline after latest rough outing",
-      "url": "https://www.mlb.com/bluejays/news/kevin-gausman-brushes-off-trade-buzz-after-tough-start",
-      "published": "Wed, 22 Jul 2026 03:51:36 GMT",
+      "title": "Here are the biggest movers on each club's refreshed Top 30 list",
+      "url": "https://www.mlb.com/bluejays/news/biggest-movers-on-club-top-30-lists-2026",
+      "published": "Thu, 23 Jul 2026 23:45:00 GMT",
       "summary": ""
     }
   ],
